@@ -19,5 +19,6 @@ sqlparse==0.3.0
 virtualenv==20.4.3
 wrapt==1.11.2
 gunicorn
+setuptools>=70.0.0
 dj-database-url
 python-decouple
