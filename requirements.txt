@@ -18,3 +18,8 @@ psycopg2-binary
 django-widget-tweaks
 crispy-bootstrap4
 django-login-required-middleware
+gunicorn
+whitenoise
+dj-database-url
+psycopg2-binary
+python-dotenv
