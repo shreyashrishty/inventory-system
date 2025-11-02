@@ -18,7 +18,11 @@ six==1.13.0
 sqlparse==0.3.0
 virtualenv==20.4.3
 wrapt==1.11.2
-gunicorn
 setuptools>=70.0.0
 dj-database-url
+Django
+dj-database-url
 python-decouple
+whitenoise
+gunicorn
+psycopg2-binary
