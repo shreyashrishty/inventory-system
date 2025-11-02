@@ -11,6 +11,8 @@ https://docs.djangoproject.com/en/3.0/ref/settings/
 """
 
 import os
+import dj_database_url
+
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -30,7 +32,7 @@ STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
 # Allow Render domain
-ALLOWED_HOSTS = ['inventory-system.onrender.com', 'localhost', '127.0.0.1']
+ALLOWED_HOSTS = ['inventory-system-4mrt.onrender.com', 'localhost']
 
 
 # Application definition
